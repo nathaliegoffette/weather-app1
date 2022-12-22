@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
+    <link href="./assets/css/style.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <title>Weather App</title>
+</head>
+<body>
+    <header>
+    <label for="city"><h3>What's your location :</h3></label>
+    <input type="text" id="city" name="city">
+
+    <button type="button" id="bSubmit"><h3>Give me forecast !</h3></button>
+    <div id="APIResponse"></div>
+    </header>
+
+    <div class="container">
+        <div id="location1"></div>
+        <div class="info">
+            <h4> <span class="sunrise"></span></h4>
+            <h4> <span class="sunset"></span></h4>
+        </div>
+        
+        <div class="day" id="day1">
+            <div class="dTUTC" id="dTUTC1"></div>
+            <img src="" alt="" srcset="" id="weather-icon1">
+            <div id="desc" class="desc1"></div>
+            <div id="temp" class="c1"></div>
+        </div>
+
+        <div class="day" id="day2">
+            <div class="dTUTC" id="dTUTC2"></div>
+            <img src="" alt="" srcset="" id="weather-icon2">
+            <div id="desc" class="desc2"></div>
+            <div id="temp" class="c2"></div>
+        </div>
+
+        <div class="day" id="day3">
+            <div class="dTUTC" id="dTUTC3"></div>
+            <img src="" alt="" srcset="" id="weather-icon3">
+            <div id="desc" class="desc3"></div>
+            <div id="temp" class="c3"></div>
+        </div>
+
+        <div class="day" id="day4">
+            <div class="dTUTC" id="dTUTC4"></div>
+            <img src="" alt="" srcset="" id="weather-icon4">
+            <div id="desc" class="desc4"></div>
+            <div id="temp" class="c4"></div>
+            
+        </div>
+
+        <div class="day" id="day5">
+            <div class="dTUTC" id="dTUTC5"></div>
+            <img src="" alt="" srcset="" id="weather-icon5">
+            <div id="desc" class="desc5"></div>
+            <div id="temp" class="c5"></div>
+            
+        </div>
+    </div>
+  
+    
+</body>
+</html>

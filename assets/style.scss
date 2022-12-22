@@ -1,0 +1,79 @@
+$quicksand : 'Quicksand', sans-serif;
+
+
+body{
+    display:flex;
+    flex-direction: column;
+    margin:0;
+    background-color: rgb(195, 228, 243);
+}
+
+header{
+    text-align: center;
+    background-color: rgb(69, 69, 92);
+}
+
+.container{
+    background-color: rgb(131, 176, 202);
+}
+
+
+h3{
+    font-family: $quicksand;
+    color: whitesmoke;
+    font-size : 1.2rem;
+}
+
+#location1{
+    font-family: $quicksand;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    padding : 1rem;
+}
+
+#city{
+    font-family: $quicksand;
+    font-size: 1.2rem;
+    padding : 0.3rem;
+    margin-bottom : 1rem;
+    border : none;
+    width : 40vw;
+    border-radius: 8px;
+}
+
+#bSubmit{
+    background-color: rgb(19, 160, 160);
+    color:antiquewhite;
+    border-radius: 15px;
+    border:none;
+    max-width : 80vw;
+    min-width : 60vw;
+    margin-bottom : 2rem;
+    padding : 0.2rem;
+}
+
+.day{
+    background-color: rgb(138, 208, 248);
+    margin: 2rem;
+    padding:0.5rem;
+    border-radius:15px;
+    text-align: center;
+}
+
+.dTUTC{
+    font-family: $quicksand;
+    font-weight : 600;
+}
+
+#temp{
+    font-family: $quicksand;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5rem;
+}
+
+#desc{
+    font-family: $quicksand;
+    font-size: 1rem;
+}
