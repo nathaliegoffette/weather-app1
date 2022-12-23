@@ -3,7 +3,7 @@ const APIResponse = document.querySelector('#APIResponse');
 
 window.onload = function() {    
         const baseInput = 'Bruxelles';
-        const onloadWeather = (baseInput) => fetch("http://api.openweathermap.org/data/2.5/forecast?q=" + baseInput + "&appid=64075723c4bb94e381d736bdbea3a049&units=metric");
+        const onloadWeather = (baseInput) => fetch("https://api.openweathermap.org/data/2.5/forecast?q=" + baseInput + "&appid=64075723c4bb94e381d736bdbea3a049&units=metric");
 
         onloadWeather(baseInput)
         .then((response) => response.json())
