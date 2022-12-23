@@ -56,6 +56,12 @@ h3 {
   margin-bottom: 2rem;
   padding: 0.2rem;
 }
+#bSubmit:hover {
+  background: rgba(255, 255, 255, 0.6);
+}
+#bSubmit:active {
+  background: rgb(255, 255, 255);
+}
 
 .day {
   background: rgba(255, 255, 255, 0.5);
