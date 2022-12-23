@@ -10,8 +10,8 @@ header {
 }
 
 .container {
-  background-image: url("../image/forest-g401f1f8d1_1920.webp");
-  background-size: contain;
+  background-image: url("../image/sky-g6347e2fdc_1280.webp");
+  background-size: cover;
   background-attachment: fixed;
 }
 
