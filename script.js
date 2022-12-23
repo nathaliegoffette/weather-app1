@@ -119,7 +119,7 @@ window.onload = function() {
         const input = document.getElementById('city').value;
         
 
-        const fetchWeather = (input) => fetch("http://api.openweathermap.org/data/2.5/forecast?q=" + input + "&appid=64075723c4bb94e381d736bdbea3a049&units=metric");
+        const fetchWeather = (input) => fetch("https://api.openweathermap.org/data/2.5/forecast?q=" + input + "&appid=64075723c4bb94e381d736bdbea3a049&units=metric");
 
         fetchWeather(input)
         .then((response) => response.json())
