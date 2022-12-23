@@ -25,7 +25,7 @@ const APIResponse = document.querySelector('#APIResponse');
         
         let tempArray = json.list[0].main.temp;
         let temp = document.querySelector('.c1');
-        temp.innerHTML = "Température : " + tempArray + "°C";
+        temp.innerHTML = tempArray + "°C";
         
         let descArray = json.list[0].weather[0].description;
         let desc = document.querySelector('.desc1');
@@ -46,7 +46,7 @@ const APIResponse = document.querySelector('#APIResponse');
         
         let tempArray2 = json.list[8].main.temp;
         let temp2 = document.querySelector('.c2');
-        temp2.innerHTML = "Température : " + tempArray2 + "°C";
+        temp2.innerHTML = tempArray2 + "°C";
         
         let descArray2 = json.list[8].weather[0].description;
         let desc2 = document.querySelector('.desc2');
@@ -66,7 +66,7 @@ const APIResponse = document.querySelector('#APIResponse');
         
         let tempArray3 = json.list[16].main.temp;
         let temp3 = document.querySelector('.c3');
-        temp3.innerHTML = "Température : " + tempArray3 + "°C";
+        temp3.innerHTML = tempArray3 + "°C";
         
         let descArray3 = json.list[16].weather[0].description;
         let desc3 = document.querySelector('.desc3');
@@ -86,7 +86,7 @@ const APIResponse = document.querySelector('#APIResponse');
         
         let tempArray4 = json.list[24].main.temp;
         let temp4 = document.querySelector('.c4');
-        temp4.innerHTML = "Température : " + tempArray4 + "°C";
+        temp4.innerHTML = tempArray4 + "°C";
         
         let descArray4 = json.list[24].weather[0].description;
         let desc4 = document.querySelector('.desc4');
@@ -105,7 +105,7 @@ const APIResponse = document.querySelector('#APIResponse');
         
         let tempArray5 = json.list[32].main.temp;
         let temp5 = document.querySelector('.c5');
-        temp5.innerHTML = "Température : " + tempArray5 + "°C";
+        temp5.innerHTML = tempArray5 + "°C";
         
         let descArray5 = json.list[32].weather[0].description;
         let desc5 = document.querySelector('.desc5');
