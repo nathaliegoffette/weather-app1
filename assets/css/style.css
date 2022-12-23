@@ -2,9 +2,6 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
-  background-image: url("/assets/image/sky-g6347e2fdc_1280.webp");
-  background-size: contain 100%;
-  background-attachment: fixed;
 }
 
 header {
@@ -12,12 +9,12 @@ header {
   background-color: #090979;
 }
 
-/*
-.container{
-   // background: rgb(2,0,36);
-    //background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+.container {
+  background-image: url("./assets/image/forest-g401f1f8d1_1920.webp");
+  background-size: contain;
+  background-attachment: fixed;
 }
-*/
+
 h3 {
   font-family: "Quicksand", sans-serif;
   font-weight: 900;
